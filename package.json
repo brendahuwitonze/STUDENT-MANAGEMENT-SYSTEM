@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "This an application to help the facilitator manage all the student",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brendahuwitonze/student-management-system.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brendah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brendahuwitonze/student-management-system/issues"
